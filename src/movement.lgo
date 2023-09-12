@@ -1,0 +1,43 @@
+to fwd
+  cleardialogue
+  player,
+  setsh 14
+  ifelse greater? sum ycor 50 125 [
+    sety 125
+  ]
+  [
+    seth 0
+    glide 50 3
+  ]
+  end
+
+to lft
+  cleardialogue
+  player,
+  setsh 15
+  tto [building3 building4 test_guy1 gascar]
+  seth 90
+  glide 50 3
+  end
+
+to rght
+  cleardialogue
+  player,
+  setsh 13
+  tto [building3 building4 test_guy1 gascar]
+  seth 270
+  glide 50 3
+end
+
+to bkwd
+  cleardialogue
+  player,
+  setsh 14
+  ifelse less? difference ycor 50 -65 [
+    sety -50
+  ]
+  [
+    seth 180
+    glide 50 3
+  ]
+end

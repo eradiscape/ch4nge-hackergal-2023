@@ -1,0 +1,198 @@
+to levelup
+  everyone [setopacity 100]
+  wait 30
+  makedialogue
+  insert '⋆ Maybe we\'ve made a mess out of our planet.'
+  wait 30
+  makedialogue
+  insert '⋆ With all the tragedies that have already occurred as a result of climate change, things can seem anything but optimistic.'
+  wait 30
+  makedialogue
+  insert '⋆ But change doesn\'t have to be a bad thing.'
+  wait 20
+  launch [chip_theme_cut] levelup2
+end
+
+; I realise now that coding in Lynx is just like Minecraft mapmaking.
+; Easy.
+; also is that a 80 char line??
+; lynx = dollar store vscode confirmed???
+
+
+to levelup2
+  test_guy1, ht
+  tto [gascar building3 building4 player path bkg arrow_fwd arrow_bkwd arrow_rght arrow_lft]
+  if greater? opacity 0 [
+    repeat 10 [
+      setopacity opacity - 10
+      wait 1.408
+    ]
+  ]
+
+  makedialogue
+  insert '⋆ Change can be scary. Difficult. It may sound impossible, even.'
+  wait 28
+  makedialogue
+  insert '⋆ But real '
+  settc 0
+  insert 'CH4NGE '
+  settc 22
+  insert 'can be very easy.'
+  wait 28
+  makedialogue
+  insert '⋆ Unplugging electronics that aren\'t being used. Purchasing sustainable power. Buying organically grown foods.'
+  wait 28
+  makedialogue
+  insert '⋆ These are things all of us can do, right?'
+  wait 28
+  levelup3
+end
+
+to levelup3
+  nextpage
+  
+  cleardialogue2
+  tto [bkg2 path2]
+  setopacity 0
+  tto [tree1 tree2 tree3 eleccar building1 building2 textbox2]
+  ht
+  setopacity 100
+  
+  tto [bkg2 path2]
+  repeat 10 [
+    setopacity opacity + 10
+    wait 5.126
+  ]
+  
+  tto [tree1 tree2 tree3]
+  st
+  wait 14.1
+  eleccar, st
+  wait 14.1
+  building1, st
+  wait 14.1
+  building2, st
+  wait 15
+  levelup4
+end
+
+to levelup4
+  
+  makedialogue2
+  insert '⋆ An electric car.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ A sustainably powered home.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Reducing meat consumption.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Organic farming.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Urban gardening.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ More efficient toilets.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Shorter showers.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Biomass energy.'
+  wait 13.75
+  
+  
+  makedialogue2
+  insert '⋆ It doesn\'t matter who you are.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Where you\'re from.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ We all have something we can do to help our planet.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ A small step we can take towards a better future.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Breathe in the air around you. Remember how lucky we are to have this planet.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ Let\'s not waste our final chance.'
+  wait 13.75
+  makedialogue2
+  insert '⋆ So what are you waiting for?'
+  wait 13.75
+  makedialogue2
+  insert '⋆ '
+  settc 0
+  insert 'JOIN THE CH4NGE' 
+  settc 51
+  insert '.'
+  levelup5
+end
+
+to levelup5
+  tto [bkg2 path2 tree1 tree2 tree3 eleccar building1 building2 textbox2]
+  if greater? opacity 0 [
+      repeat 10 [
+        setopacity opacity - 10
+        wait 1.37
+      ]
+    ]
+  dialogue2, ct
+  
+  nextpage
+  
+  credits,
+  setsh 27
+  wait 27.5
+  setsh 28
+  wait 27.5
+  setsh 29
+  wait 27.5
+  setsh 30
+  wait 27.5
+  setsh 31
+  wait 27.5
+  setsh 32
+  wait 27.5
+  setsh 33
+  wait 27.5
+  setsh 34
+  wait 27.5
+  setsh 35
+  wait 27.5
+  setsh 36
+  wait 27.5
+  setsh 37
+  wait 27.5
+  setsh 38
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

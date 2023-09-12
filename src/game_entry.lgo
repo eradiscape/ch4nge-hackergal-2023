@@ -1,0 +1,17 @@
+to entergame
+  if readchar = 2 [nextpage]
+  skipchar
+  make "object_mark 0
+  makedialogue
+  print '⋆ Click on objects to interact with them. \n⋆ Use the on-screen arrows to move your character.'
+  everyone [setopacity 100]
+  player, home
+  stopall
+end
+
+to click_here_to_start_click
+  skipchar
+  nextpage
+  launch [field]
+  entergame
+end

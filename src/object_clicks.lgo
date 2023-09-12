@@ -1,0 +1,30 @@
+to building3_click
+  makedialogue
+  insert '⋆ It\'s a family of 3. \n⋆ This household emits 9.5 tonnes of CO2 per year. \n⋆ That\'s enough CO2 to carbonate 1 million sodas.'
+  
+  make "object_mark :object_mark + 1
+  if equal? :object_mark 3 [
+    levelup
+  ]
+end
+
+to gascar_click
+  makedialogue
+  insert '⋆ It\'s a petrol car. \n⋆ This kind emits on average 107.5 grams of CO2 per kilometre. \n⋆ That\'s enough CO2 to carbonate 15 1-litre sodas.'
+  
+  make "object_mark :object_mark + 1
+  if equal? :object_mark 3 [
+    levelup
+  ]
+end
+
+to building4_click
+  makedialogue
+  insert '⋆ It\'s a house of 5 people. \n⋆ Eating animal-based foods everyday creates almost double the greenhouse gas emission as eating plant-based foods.'
+
+  
+  make "object_mark :object_mark + 1
+  if equal? :object_mark 3 [
+    levelup
+  ]
+end

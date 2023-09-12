@@ -1,0 +1,99 @@
+to test_guy
+  test_guy1,
+  seth 0
+  forward 50
+  note 38 1
+  rest 0.04
+  note 38 1
+  rest 0.04
+  note 50 2
+  rest 0.04
+  note 45 3
+  rest 0.04
+  note 44 2
+  rest 0.04
+  note 43 2
+  rest 0.04
+  note 41 2
+  rest 0.04
+  note 38 1
+  rest 0.04
+  note 41 1
+  rest 0.04
+  note 43 1
+  rest 0.04
+  
+  note 36 1
+  rest 0.04
+  note 36 1
+  rest 0.04
+  note 50 2
+  rest 0.04
+  note 45 3
+  rest 0.04
+  note 44 2
+  rest 0.04
+  note 43 2
+  rest 0.04
+  note 41 2
+  rest 0.04
+  note 38 1
+  rest 0.04
+  note 41 1
+  rest 0.04
+  note 43 1
+  rest 0.04
+  
+  note 35 1
+  rest 0.04
+  note 35 1
+  rest 0.04
+  note 50 2
+  rest 0.04
+  note 45 3
+  rest 0.04
+  note 44 2
+  rest 0.04
+  note 43 2
+  rest 0.04
+  note 41 2
+  rest 0.04
+  note 38 1
+  rest 0.04
+  note 41 1
+  rest 0.04
+  note 43 1
+  rest 0.04
+  
+  note 34 1
+  rest 0.04
+  note 34 1
+  rest 0.04
+  note 50 2
+  rest 0.04
+  note 45 3
+  rest 0.04
+  note 44 2
+  rest 0.04
+  note 43 2
+  rest 0.04
+  note 41 2
+  rest 0.04
+  note 38 1
+  rest 0.04
+  note 41 1
+  rest 0.04
+  note 43 1
+  rest 0.04
+  makedialogue
+  insert '⋆ It\'s test guy! \n⋆ yogurtified\'s abomination made out of curiosity and her '
+  settextstyle 'italic'
+  insert 'undying '
+  settextstyle 'normal'
+  insert 'love for Undertale.'
+  test_guy1,
+  seth 180
+  forward 50
+end
+
+; goofy goobing

@@ -1,0 +1,33 @@
+to cleardialogue
+  dialogue,
+  ct
+  textbox,
+  ht
+end
+
+to makedialogue
+  textbox,
+  st
+  dialogue,
+  ct
+  settextsize 'large'
+  settc 22
+  settextfont 'Courier New'
+end
+
+to makedialogue2
+  textbox2,
+  st
+  dialogue2,
+  ct
+  settextsize 'large'
+  settc 51
+  settextfont 'Courier New'
+end
+
+to cleardialogue2
+  dialogue2,
+  ct
+  textbox2,
+  ht
+end
